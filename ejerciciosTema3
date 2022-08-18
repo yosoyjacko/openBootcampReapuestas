@@ -1,0 +1,22 @@
+//parte 1
+
+function suma(a,b,c){
+return a + b+ c;
+};
+
+suma(10,20,30)
+
+
+//parte 2
+
+class coche {
+    puertas = 0;
+    sumarpuerta () {
+        this.puertas = this.puertas + 1};
+};
+
+let miCoche = new coche;
+
+miCoche.sumarpuerta();
+
+console.log(miCoche)
